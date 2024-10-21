@@ -41,11 +41,11 @@ namespace Interview.DesignPatterns.Structural_Design_Patterns
 
     public class ProxyDesignPattern
     {
-        public static void Main(string[] args)
-        {
-            IEmployeeInterface employee = new ProxyEmployee();
-            Console.WriteLine(employee.getSalary(1));
-            Console.WriteLine(employee.getTax(1));
-        }
+        //public static void Main(string[] args)
+        //{
+        //    IEmployeeInterface employee = new ProxyEmployee();
+        //    Console.WriteLine(employee.getSalary(1));
+        //    Console.WriteLine(employee.getTax(1));
+        //}
     }
 }
